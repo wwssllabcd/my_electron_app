@@ -66,7 +66,7 @@ function get_cmd_select() {
     <div class="container">
         <div class="row">
             <div class="col col-4">
-                <select class="form-select" aria-label="Default select example" >
+                <select class="form-select" aria-label="Default select example" id="cboCmdSel">
                     <option value="1">id</option>
                     <option value="2">id-ns</option>
                 </select>
@@ -87,8 +87,8 @@ function get_cmd_input_box() {
     <div class="container">
         <div class="row">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="CDW0" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <input type="text" class="form-control" placeholder="CDW1" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <input type="text" class="form-control" placeholder="CDW0" id="txtCdw00">
+                <input type="text" class="form-control" placeholder="CDW1" >
             </div>
             <div class="col">
                 
