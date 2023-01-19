@@ -83,35 +83,28 @@ function get_cmd_select() {
 }
 
 function get_cmd_input_box() {
-    var res = `<P> 
+    var res = `
+    <P> 
     <div class="container">
         <div class="row">
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="CDW0" id="txtCdw00">
-                <input type="text" class="form-control" placeholder="CDW1" >
-            </div>
-            <div class="col">
-                
+                <input type="text" class="form-control" placeholder="CDW1" id="txtCdw01">
             </div>
         </div>
         <div class="row">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="CDW10" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <input type="text" class="form-control" placeholder="CDW11" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <input type="text" class="form-control" placeholder="CDW12" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <input type="text" class="form-control" placeholder="CDW13" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <input type="text" class="form-control" placeholder="CDW14" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <input type="text" class="form-control" placeholder="CDW15" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            </div>
-            <div class="col">
-                
+                <input type="text" class="form-control" placeholder="CDW10" id="txtCdw10">
+                <input type="text" class="form-control" placeholder="CDW11" id="txtCdw11">
+                <input type="text" class="form-control" placeholder="CDW12" id="txtCdw12">
+                <input type="text" class="form-control" placeholder="CDW13" id="txtCdw13">
+                <input type="text" class="form-control" placeholder="CDW14" id="txtCdw14">
+                <input type="text" class="form-control" placeholder="CDW15" id="txtCdw15">
             </div>
         </div>
     </div>
     <P> 
 
-    
-    <P> 
     `;
 
     return res;
