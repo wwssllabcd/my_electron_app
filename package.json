@@ -1,7 +1,6 @@
 {
   "name": "my_electron_app",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^22.0.0"
-  }
+    "electron": "^22.3.27"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwssllabcd/my_electron_app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/wwssllabcd/my_electron_app/issues"
+  },
+  "homepage": "https://github.com/wwssllabcd/my_electron_app#readme",
+  "description": ""
 }
