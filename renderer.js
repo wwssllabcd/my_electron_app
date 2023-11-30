@@ -1,11 +1,11 @@
 
-import {click_btn_fresh} from './CmderView.js';
+import * as cmderView from './CmderView.js';
 
 
 
 
 var crlf = "<br>"
-document.querySelector('#btnFresh').addEventListener('click',click_btn_fresh)
+document.querySelector('#btnFresh').addEventListener('click', cmderView.click_btn_fresh)
 
 document.querySelector('#btnExecute').addEventListener('click', () => {
 
